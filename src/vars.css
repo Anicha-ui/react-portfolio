@@ -1,0 +1,20 @@
+:root{
+    /* color */
+    --color-text: #fff;
+    /* --color-primary:#576cbc; */
+    --color-primary: rgba(12, 12, 12, 0.6);
+    /* --color-secondary:#19376d; */
+    --color-secondary:#8c8989;
+    /* --color-dark:#0b2447; */
+    --color-dark:#0c0c0c99;
+    /* --color-bg:#04152d; */
+    /* --color-bg:#e8e6e6;
+    --color-white-bg:#fff; */
+    --color-bg:#e8e6e6;
+    --color-white-bg:#fff;
+
+    /* font */
+    --font-roboto : "Roboto";
+    --font-montserrat : "Montserrat";
+    
+}
