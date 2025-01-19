@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [menuOpen, setmenuOpen] = useState(false);
     return (
     <nav className={styles.navbar}>
-        <a className={styles.title} href="/"><img src={getImageUrl("nav/logo.png")} className={styles.logo} />Swati Gaikwad</a>
+        <a className={styles.title} href="/"><img src={getImageUrl("nav/logo.png")} className={styles.logo} />Swati Taiwade</a>
         <div className={styles.menu}>
             <img className={styles.menuBtn} src={
                 menuOpen
