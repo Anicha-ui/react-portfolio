@@ -19,7 +19,7 @@ export const Navbar = () => {
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                 onClick={() => setmenuOpen(false)} >
                 <li>
-                    <a href="#about">About</a>
+                    <a href="/about">About</a>
                 </li>
                 {/* <li>
                     <a href="#experience">Experience</a>
@@ -28,10 +28,13 @@ export const Navbar = () => {
                     <a href={getImageUrl("nav/SwatiTaiwade-Resume.pdf")} target="_blank">Resume</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="/projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="/contact">Contact</a>
+                </li>
+                <li>
+                    <a href="/portfolio">Portfolio</a>
                 </li>
             </ul>
         </div>
