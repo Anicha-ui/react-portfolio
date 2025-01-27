@@ -1,6 +1,7 @@
 import React from "react";
 import {getImageUrl} from "../../utils.js";
 import {PortfolioSlide} from "./PortfolioSlide.jsx";
+import styles from "./Portfolio.module.css";
 
 export const Portfolio = () => {
     return(
@@ -10,12 +11,11 @@ export const Portfolio = () => {
       <div className="jumbotron text-center bg-white">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <h2 className="text-uppercase">Creating solutions that drive business growth through user-focused insights</h2>
+            <div className="col-12 mt-5">
+              <h2 className="text-uppercase">Creating solutions that drive business growth through user focused insights</h2>
               <p>
 				  Proven expertise in the design, architecture, development, deployment, and
 maintenance of digital products for enterprises and corporations, I approach design and development by combining analytical thinking with a strong sense of empathy. I focus on solving business challenges by exploring the intersection of technology, innovation, and user needs.</p>
-              <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ maintenance of digital products for enterprises and corporations, I approach des
 
     <section>
         <PortfolioSlide />
-	</section>
+	  </section>
 
     <section>
       <div className="container">
@@ -45,7 +45,7 @@ maintenance of digital products for enterprises and corporations, I approach des
             <p>Was built in HTML and CSS</p>
           </div>
         </div>
-        <div className="row">
+        <div className={`${styles.containerBg} row pt-2 pb-2`}>
           <div className="col-md-6 col-12 text-center">
             <img className="img-fluid" src={getImageUrl("PortfolioCA/TM_01.gif")} alt="" />
           </div>
@@ -59,7 +59,7 @@ maintenance of digital products for enterprises and corporations, I approach des
             <h4>Created a prototype using Figma to visualize and refine the design</h4>
           </div>
         </div>
-		<div className="row">
+		<div className={`${styles.containerBg} row pt-2 pb-2`}>
           <div className="col-md-6 col-12 text-center">
             <img className="img-fluid" src={getImageUrl("PortfolioCA/Figma_01.gif")} alt="" />
           </div>
@@ -73,7 +73,7 @@ maintenance of digital products for enterprises and corporations, I approach des
             <h4>Delivered the final version of the website, fully developed and optimized for a seamless user experience</h4>
           </div>
         </div>
-		<div className="row">
+		<div className={`${styles.containerBg} row pt-2 pb-2`}>
           <div className="col-md-6 col-12 text-center">
             <img className="img-fluid" src={getImageUrl("PortfolioCA/dashboard_01.gif")} alt="" />
           </div>

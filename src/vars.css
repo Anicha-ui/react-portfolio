@@ -2,7 +2,7 @@
     /* color */
     --color-text: #fff;
     /* --color-primary:#576cbc; */
-    --color-primary: rgba(12, 12, 12, 0.6);
+    --color-primary: #0C0C0C99;
     /* --color-secondary:#19376d; */
     --color-secondary:#8c8989;
     /* --color-dark:#0b2447; */
@@ -12,6 +12,9 @@
     --color-white-bg:#fff; */
     --color-bg:#e8e6e6;
     --color-white-bg:#fff;
+
+    /* link */
+    --link-color: #0C0C0C99;
 
     /* font */
     --font-roboto : "Roboto";

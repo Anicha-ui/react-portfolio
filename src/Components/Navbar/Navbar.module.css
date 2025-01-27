@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+
 .navbar {
     position: relative;
     display: flex;
@@ -16,6 +17,11 @@
     text-decoration: none;
     _color: var(--color-text);
     color:rgba(12, 12, 12, 0.6);
+}
+
+.title:hover{
+    color:#8c8989;
+    text-decoration: none;
 }
 
 .menuBtn {
@@ -38,6 +44,11 @@
     color:rgba(12, 12, 12, 0.6);
     text-decoration: none;
 }
+
+.menuItems a:hover {
+    color: var(--color-secondary);
+  }
+
 .logo{
     width:18%;
     padding-right:30px;
