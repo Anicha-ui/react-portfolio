@@ -14,6 +14,7 @@
 .image {
   margin-bottom: 26px;
   box-shadow: 0 21px 13px #00000021;
+  border-radius:12px 
 }
 
 .image:hover{
@@ -35,9 +36,16 @@
   }
 }
 
+a:link{
+  text-decoration: none;
+}
+
 .title {
-  font-size: 22px;
+  font-size: 1.2rem;
   font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  color:#0C0C0C99;
 }
 
 .description {

@@ -1,23 +1,23 @@
 [
     {
-      "title": "Project A",
+      "title": "Projects at Charge Anywhere LLC",
       "imageSrc": "projects/project1.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Some of my curated work at Charge Anywhere LLC",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "/portfolio"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
+      "title": "Figma Prototypes",
+      "imageSrc": "projects/projectFigma.gif",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "/portfolioFigma"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
+      "title": "Recipe Site - A work in progress",
+      "imageSrc": "projects/projectRecipe.gif",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
